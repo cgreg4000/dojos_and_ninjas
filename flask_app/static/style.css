@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+
+.main_divs {
+    flex: 1;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.btn {
+    display: block;
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
+    position: relative;
+    left: 50px;
+}
