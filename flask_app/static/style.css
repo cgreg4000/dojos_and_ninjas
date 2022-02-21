@@ -7,8 +7,18 @@
 .container {
     width: 70%;
     margin: auto;
-    display: flex;
     padding: 20px;
+}
+
+.flexed {
+    display: flex;
+}
+
+.flexed-2{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 40%;
 }
 
 .main_divs {
@@ -19,10 +29,32 @@
     position: absolute;
 }
 
+.relative {
+    position: relative;
+    left: 50px;
+}
+
 .btn {
     display: block;
     border: 1px solid black;
     box-shadow: 1px 1px black;
-    position: relative;
-    left: 50px;
+
+}
+
+.dojos-list{
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.create-dojo {
+    display: inline-block;
+}
+
+.forty {
+    width: 40%;
+}
+
+select {
+    height: 32px;
+    width: 179px;
 }
